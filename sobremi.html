@@ -25,14 +25,17 @@
         <h1> Sobre mi</h1>
         <h2> Marcos Caraduje Martínez</h2>
         
-        <h3> Carta de presentación</h3>
-        <p> 
-            Nací en Gijón y tengo 23 años, empecé a cursar este grado en septiembre
-            de 2018, hace ya 5 años, con la expectación de poder trabajar en el sector
-            de la informática durante toda mi vida laboral
-        </p>
+        <header>
+            <h3> Carta de presentación</h3>
+            <p> 
+                Nací en Gijón y tengo 23 años, empecé a cursar este grado en septiembre
+                de 2018, hace ya 5 años, con la expectación de poder trabajar en el sector
+                de la informática durante toda mi vida laboral
+            </p>
+        </header>
         
-        <h3> Mis aficiones y gustos</h3>
+        <section>
+            <h3> Mis aficiones y gustos</h3>
         <p>
             Como cualquier persona, tengo múltiples aficiones que practico durante mi tiempo libre
             la mayoría relacionadas con el deporte o con la compañía de mis amigos
@@ -82,8 +85,10 @@
                 aficiones en común (ver una película un partido de fútbol o cualquier cosa que tengamos en común)
             </li>
         </ul>
-
-        <!--Lista de cantantes o grupos de música favoritos. 5 elementos ORDENADOS-->
+        </section>
+        
+        <aside>
+            <!--Lista de cantantes o grupos de música favoritos. 5 elementos ORDENADOS-->
         <ol>
             <li> Orslok</li>
             <li> Feid</li>
@@ -120,69 +125,75 @@
             </dd>
         </dl>
 
+        </aside>
+        
+
+        
 
         <!--Tabla con las temperaturas de mi ciudad de nacimiento en los últimos 10 años (Gijón)-->
+        <footer>
+            <table>
+                <caption>Temperaturas Medias de Gijón en los Últimos 10 Años</caption>
+                <thead>
+                    <tr>
+                        <th scope="col" id="anio">Año</th>
+                        <th scope="col" id="temperatura">Temperatura Media (°C)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" id="anio-2010">2010</th>
+                        <td headers="anio temperatura ano-2010">10.2°C</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="anio-2011">2011</th>
+                        <td headers="anio temperatura ano-2011">10.5°C</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="anio-2012">2012</th>
+                        <td headers="anio temperatura ano-2012">10.2°C</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="anio-2013">2013</th>
+                        <td headers="anio temperatura ano-2013">10.2°C</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="anio-2014">2014</th>
+                        <td headers="anio temperatura ano-2014">10.2°C</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="anio-2014">2014</th>
+                        <td headers="anio temperatura ano-2014">10.2°C</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="anio-2015">2015</th>
+                        <td headers="anio temperatura ano-2015">10.2°C</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="anio-2016">2016</th>
+                        <td headers="anio temperatura ano-2016">10.2°C</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="anio-2017">2017</th>
+                        <td headers="anio temperatura ano-2017">10.2°C</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="anio-2018">2018</th>
+                        <td headers="anio temperatura ano-2018">10.2°C</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="anio-2019">2019</th>
+                        <td headers="anio temperatura ano-2019">10.2°C</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="anio-2020">2020</th>
+                        <td headers="anio temperatura ano-2020">10.2°C</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </footer>
         
-        <table>
-            <caption>Temperaturas Medias de Gijón en los Últimos 10 Años</caption>
-            <thead>
-                <tr>
-                    <th scope="col" id="anio">Año</th>
-                    <th scope="col" id="temperatura">Temperatura Media (°C)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row" id="anio-2010">2010</th>
-                    <td headers="anio temperatura ano-2010">10.2°C</td>
-                </tr>
-                <tr>
-                    <th scope="row" id="anio-2011">2011</th>
-                    <td headers="anio temperatura ano-2011">10.5°C</td>
-                </tr>
-                <tr>
-                    <th scope="row" id="anio-2012">2012</th>
-                    <td headers="anio temperatura ano-2012">10.2°C</td>
-                </tr>
-                <tr>
-                    <th scope="row" id="anio-2013">2013</th>
-                    <td headers="anio temperatura ano-2013">10.2°C</td>
-                </tr>
-                <tr>
-                    <th scope="row" id="anio-2014">2014</th>
-                    <td headers="anio temperatura ano-2014">10.2°C</td>
-                </tr>
-                <tr>
-                    <th scope="row" id="anio-2014">2014</th>
-                    <td headers="anio temperatura ano-2014">10.2°C</td>
-                </tr>
-                <tr>
-                    <th scope="row" id="anio-2015">2015</th>
-                    <td headers="anio temperatura ano-2015">10.2°C</td>
-                </tr>
-                <tr>
-                    <th scope="row" id="anio-2016">2016</th>
-                    <td headers="anio temperatura ano-2016">10.2°C</td>
-                </tr>
-                <tr>
-                    <th scope="row" id="anio-2017">2017</th>
-                    <td headers="anio temperatura ano-2017">10.2°C</td>
-                </tr>
-                <tr>
-                    <th scope="row" id="anio-2018">2018</th>
-                    <td headers="anio temperatura ano-2018">10.2°C</td>
-                </tr>
-                <tr>
-                    <th scope="row" id="anio-2019">2019</th>
-                    <td headers="anio temperatura ano-2019">10.2°C</td>
-                </tr>
-                <tr>
-                    <th scope="row" id="anio-2020">2020</th>
-                    <td headers="anio temperatura ano-2020">10.2°C</td>
-                </tr>
-                
-            </tbody>
-        </table>
         
     </body>
 <!-- </html> -->
