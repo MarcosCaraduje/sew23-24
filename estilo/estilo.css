@@ -1,14 +1,26 @@
 /* Marcos Caraduje Martínes - UO270285*/
 
+/* Especificidad 001*/
 body {
     background-color: #f5f5dc;
     color: #990000;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Especificidad 001*/
 h1{
-    font-size: x-large;
+    font-size: xx-large;
     font: bold;
+}
+
+/* Especificidad 001*/
+h2{
+    font:oblique;
+
+}
+
+a{
+    font: italic;
 }
 
 
