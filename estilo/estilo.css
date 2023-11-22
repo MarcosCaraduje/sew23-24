@@ -10,17 +10,25 @@ body {
 /* Especificidad 001*/
 h1{
     font-size: xx-large;
-    font: bold;
+    font: bolder;
 }
 
 /* Especificidad 001*/
-h2{
+h2 {
     font:oblique;
 
 }
 
-a{
+/* Especificidad 001*/
+a {
     font: italic;
+}
+
+/* Especificidad 001*/
+ul {
+
+    font: bold;
+    
 }
 
 
